@@ -4,7 +4,7 @@ Solutions for Daily Coding Problem
 Link: https://www.dailycodingproblem.com/
 
 
-#### Daily Coding Problem: Problem #1 [Easy]
+### Daily Coding Problem: Problem #1 [Easy]
 **2019 Mar 2nd**
 
 This problem was recently asked by Google.
@@ -15,7 +15,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
 
 
-#### Daily Coding Problem: Problem #2 [Hard]
+### Daily Coding Problem: Problem #2 [Hard]
 **2019 Mar 3rd**
 
 This problem was asked by Uber.
@@ -27,7 +27,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 Follow-up: what if you can't use division?
 
 
-#### Daily Coding Problem: Problem #3 [Medium]
+### Daily Coding Problem: Problem #3 [Medium]
 **2019 Mar 4th**
 
 This problem was asked by Google.
@@ -47,7 +47,7 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 
-#### Daily Coding Problem: Problem #4 [Hard]
+### Daily Coding Problem: Problem #4 [Hard]
 **2019 Mar 5th**
 
 This problem was asked by Stripe.
@@ -59,7 +59,7 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 You can modify the input array in-place.
 
 
-#### Daily Coding Problem: Problem #5 [Medium]
+### Daily Coding Problem: Problem #5 [Medium]
 **2019 Mar 6th**
 
 This problem was asked by Jane Street.
