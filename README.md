@@ -37,7 +37,7 @@ This problem was asked by Google.
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
 For example, given the following Node class
-
+```
 class Node:
     def \_\_init\_\_(self, val, left=None, right=None):
         self.val = val
@@ -47,6 +47,7 @@ The following test should pass:
 
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
 
 
 ### Daily Coding Problem: Problem #4 [Hard]
@@ -70,11 +71,13 @@ cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and 
 
 Given this implementation of cons:
 
+```
 def cons(a, b):
     def pair(f):
         return f(a, b)
     return pair
 Implement car and cdr.
+```
 
 
 ### Daily Coding Problem: Problem #6 [Hard]
@@ -109,7 +112,7 @@ A unival tree (which stands for "universal value") is a tree where all nodes und
 Given the root to a binary tree, count the number of unival subtrees.
 
 For example, the following tree has 5 unival subtrees:
-
+```
    0
   / \
  1   0
@@ -117,8 +120,9 @@ For example, the following tree has 5 unival subtrees:
    1   0
   / \
  1   1
- 
- 
+ ```
+
+
 ### Daily Coding Problem: Problem #9 [Hard]
 **2019 Mar 10th**
 
@@ -159,12 +163,13 @@ This problem was asked by Amazon.
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
 
 For example, if N is 4, then there are 5 unique ways:
-
+```
 1, 1, 1, 1
 2, 1, 1
 1, 2, 1
 1, 1, 2
 2, 2
+```
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
 
@@ -217,14 +222,17 @@ Suppose we represent our file system by a string in the following manner:
 
 The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
 
+```
 dir
     subdir1
     subdir2
         file.ext
+```
 The directory dir contains an empty sub-directory subdir1 and a sub-directory subdir2 containing a file file.ext.
 
 The string "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext" represents:
 
+```
 dir
     subdir1
         file1.ext
@@ -232,6 +240,7 @@ dir
     subdir2
         subsubdir2
             file2.ext
+```
 The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second-level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
 
 We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
