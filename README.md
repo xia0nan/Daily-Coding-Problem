@@ -43,8 +43,9 @@ class Node:
         self.val = val
         self.left = left
         self.right = right
+```
 The following test should pass:
-
+```
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
@@ -76,8 +77,8 @@ def cons(a, b):
     def pair(f):
         return f(a, b)
     return pair
-Implement car and cdr.
 ```
+Implement car and cdr.
 
 
 ### Daily Coding Problem: Problem #6 [Hard]
