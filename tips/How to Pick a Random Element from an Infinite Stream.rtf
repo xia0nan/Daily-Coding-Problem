@@ -1,0 +1,74 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red24\green24\blue24;\red255\green255\blue255;\red16\green60\blue192;
+}
+{\*\expandedcolortbl;;\cssrgb\c12549\c12549\c12549;\cssrgb\c100000\c100000\c100000;\cssrgb\c6667\c33333\c80000;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Hey there,\
+Hope your interview practicing is going well! Let's work through the problem of uniformly picking a random element from a gigantic stream. This is a common interview question at companies like Google and Facebook.\
+Naively, we could process the stream and store all the elements we encounter in a list, find its size, and pick a random element from\'a0
+\f1 [0, size - 1]
+\f0 . The problem with this approach is that it would take O(N) space for a large N.\
+Instead, let's attempt to solve using loop invariants. On the ith iteration of our loop to pick a random element, let's assume we already picked an element uniformly from\'a0
+\f1 [0, i - 1]
+\f0 . In order to maintain the loop invariant, we would need to pick the ith element as the new random element at\'a0
+\f1 1 / (i + 1)
+\f0 \'a0chance. For the base case where\'a0
+\f1 i = 0
+\f0 , let's say the random element is the first one. Then we know it works because\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl420\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 For\'a0
+\f1 i = 0
+\f0 , we would've picked uniformly from [0, 0].\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 For\'a0
+\f1 i > 0
+\f0 , before the loop began, any element\'a0
+\f1 K
+\f0 \'a0in\'a0
+\f1 [0, i - 1]
+\f0 \'a0had\'a0
+\f1 1 / i
+\f0 \'a0chance of being chosen as the random element. We want\'a0
+\f1 K
+\f0 \'a0to have\'a0
+\f1 1 / (i + 1)
+\f0 \'a0chance of being chosen after the iteration. This is the case since the chance of having being chosen already but not getting swapped with the\'a0
+\f1 ith
+\f0 \'a0element is\'a0
+\f1 1 / i * (1 - (1 / (i + 1)))
+\f0 \'a0which is\'a0
+\f1 1 / i * i / (i + 1)
+\f0 \'a0or\'a0
+\f1 1 / (i + 1)
+\f0 \cb1 \
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+\cf2 \cb3 Let's see how the code would look:\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\f1 \cf2 import random\
+\
+def pick(big_stream):\
+    random_element = None\
+\
+    for i, e in enumerate(big_stream):\
+        if i == 0:\
+            random_element = e\
+        if random.randint(1, i + 1) == 1:\
+            random_element = e\
+    return random_element\
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\f0 \cf2 Since we are only storing a single variable, this only takes up constant space!\
+Turns out this algorithm is called\'a0{\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/Reservoir_sampling"}}{\fldrslt \cf4 \ul \ulc4 \strokec4 Reservoir Sampling}}. If you liked this problem and solution, sign up for our mailing list below for problems like these! You can also read our other post on how to solve tricky interview questions like this one\'a0{\field{\*\fldinst{HYPERLINK "https://dailycodingproblem.com/blog/how-to-solve-a-hard-programming-interview-question/"}}{\fldrslt \cf4 \ul \ulc4 \strokec4 here}}.\
+Best of luck!\
+Marc\
+}
