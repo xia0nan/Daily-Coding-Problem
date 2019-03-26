@@ -280,7 +280,7 @@ A builder is looking to build a row of N houses that can be of K different color
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
 ### Daily Coding Problem: Problem #20 [Easy]
-**2019 Mar 20th**
+**2019 Mar 21st**
 
 This problem was asked by Google.
 
@@ -293,7 +293,7 @@ In this example, assume nodes with the same value are the exact same node object
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
 ### Daily Coding Problem: Problem #21 [Easy]
-**2019 Mar 21st**
+**2019 Mar 22nd**
 
 This problem was asked by Snapchat.
 
@@ -302,7 +302,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 ### Daily Coding Problem: Problem #22 [Medium]
-**2019 Mar 22nd**
+**2019 Mar 23rd**
 
 This problem was asked by Microsoft.
 
@@ -313,7 +313,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
 ### Daily Coding Problem: Problem #23 [Easy]
-**2019 Mar 23rd**
+**2019 Mar 24th**
 
 This problem was asked by Google.
 
@@ -331,7 +331,7 @@ For example, given the following board:
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
 ### Daily Coding Problem: Problem #24 [Medium]
-**2019 Mar 24th**
+**2019 Mar 25th**
 
 This problem was asked by Google.
 
@@ -343,3 +343,18 @@ is_locked, which returns whether the node is locked
 lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
 unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+
+### Daily Coding Problem: Problem #25 [Hard]
+**2019 Mar 26th**
+
+This problem was asked by Facebook.
+
+Implement regular expression matching with the following special characters:
+
+. (period) which matches any single character
+* (asterisk) which matches zero or more of the preceding element
+That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
+Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
