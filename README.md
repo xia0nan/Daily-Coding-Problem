@@ -473,7 +473,7 @@ For example, given the string "race", you should return "ecarace", since we can 
 As another example, given the string "google", you should return "elgoogle".
 
 
-### Daily Coding Problem: Problem #34 [Hard]
+### Daily Coding Problem: Problem #35 [Hard]
 **2019 Apr 5th**
 
 This problem was asked by Google.
@@ -483,3 +483,10 @@ Given an array of strictly the characters 'R', 'G', and 'B', segregate the value
 Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+### Daily Coding Problem: Problem #36 [Medium]
+**2019 Apr 6th**
+
+This problem was asked by Dropbox.
+
+Given the root to a binary search tree, find the second largest node in the tree.
