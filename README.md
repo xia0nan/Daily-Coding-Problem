@@ -578,7 +578,6 @@ Each method should run in constant time.
 ### Daily Coding Problem: Problem #44 [Medium]
 **2019 Apr 14th**
 
-
 Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Google.
@@ -590,3 +589,20 @@ Given an array, count the number of inversions it has. Do this faster than O(N^2
 You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+### Daily Coding Problem: Problem #45 [Easy]
+**2019 Apr 15th**
+
+This problem was asked by Two Sigma.
+
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+
+### Daily Coding Problem: Problem #46 [Hard]
+**2019 Apr 16th**
+
+This problem was asked by Amazon.
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+
