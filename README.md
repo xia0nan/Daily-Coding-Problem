@@ -638,3 +638,58 @@ You should return the following tree:
  / \ / \
 d  e f  g
 ```
+
+### Daily Coding Problem: Problem #49 [Medium]
+**2019 Apr 19th**
+
+This problem was asked by Amazon.
+
+Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
+
+Do this in O(N) time.
+
+### Daily Coding Problem: Problem #50 [Easy]
+**2019 Apr 20th**
+
+This problem was asked by Microsoft.
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+```
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+```
+You should return 45, as it is (3 + 2) * (4 + 5).
+
+### Daily Coding Problem: Problem #51 [Medium]
+**2019 Apr 21st**
+
+This problem was asked by Facebook.
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+### Daily Coding Problem: Problem #52 [Hard]
+**2019 Apr 22nd**
+
+This problem was asked by Google.
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+  - set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+  - get(key): gets the value at key. If no such key exists, return null.
+
+Each operation should run in O(1) time.
