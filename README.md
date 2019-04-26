@@ -28,6 +28,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
+[Solution](p002.py)
 
 ### Daily Coding Problem: Problem #3 [Medium]
 **2019 Mar 4th**
