@@ -721,3 +721,34 @@ Implement a URL shortener with the following methods:
 shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
 restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
 Hint: What if we enter the same URL twice?
+
+### Daily Coding Problem: Problem #56 [Medium]
+**2019 Apr 26th**
+
+This problem was asked by Google.
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+### Daily Coding Problem: Problem #57 [Medium]
+**2019 Apr 27th**
+
+This problem was asked by Amazon.
+
+Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
+
+You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
+
+For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+### Daily Coding Problem: Problem #58 [Medium]
+**2019 Apr 28th**
+
+This problem was asked by Amazon.
+
+An sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
+
+For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
+You can assume all the integers in the array are unique.
