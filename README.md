@@ -752,3 +752,21 @@ Given such an array, find the index of the element in the array in faster than l
 For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
+
+### Daily Coding Problem: Problem #59 [Hard]
+**2019 Apr 29th**
+
+This problem was asked by Google.
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+### Daily Coding Problem: Problem #60 [Medium]
+**2019 Apr 30th**
+
+This problem was asked by Facebook.
+
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+
+For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
+
+Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
