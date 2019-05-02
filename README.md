@@ -770,3 +770,32 @@ Given a multiset of integers, return whether it can be partitioned into two subs
 For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
 
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
+
+### Daily Coding Problem: Problem #61 [Medium]
+**2019 May 1st**
+
+This problem was asked by Google.
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+### Daily Coding Problem: Problem #62 [Medium]
+**2019 May 2nd**
+
+
+ Daily Coding Problem
+Good morning! Here's your coding interview problem for today.
+
+This problem was asked by Facebook.
+
+There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+
+ - Right, then down
+ - Down, then right
+ 
+Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
