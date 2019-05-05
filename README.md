@@ -785,10 +785,6 @@ For example, pow(2, 10) should return 1024.
 ### Daily Coding Problem: Problem #62 [Medium]
 **2019 May 2nd**
 
-
- Daily Coding Problem
-Good morning! Here's your coding interview problem for today.
-
 This problem was asked by Facebook.
 
 There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
@@ -799,3 +795,67 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
  - Down, then right
  
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+### Daily Coding Problem: Problem #63 [Easy]
+**2019 May 3rd**
+
+This problem was asked by Microsoft.
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+```
+[['F', 'A', 'C', 'I'],
+ ['O', 'B', 'Q', 'P'],
+ ['A', 'N', 'O', 'B'],
+ ['M', 'A', 'S', 'S']]
+ ```
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+### Daily Coding Problem: Problem #64 [Hard]
+**2019 May 4th**
+
+This problem was asked by Google.
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+### Daily Coding Problem: Problem #65 [Easy]
+**2019 May 5th**
+
+This problem was asked by Amazon.
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the following matrix:
+```
+[[1,  2,  3,  4,  5],
+ [6,  7,  8,  9,  10],
+ [11, 12, 13, 14, 15],
+ [16, 17, 18, 19, 20]]
+ ```
+You should print out the following:
+```
+1
+2
+3
+4
+5
+10
+15
+20
+19
+18
+17
+16
+11
+6
+7
+8
+9
+14
+13
+12
+```
+
