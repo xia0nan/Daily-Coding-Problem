@@ -1203,16 +1203,12 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 ### Daily Coding Problem: Problem #90 [Medium]
 **2019 May 30th**
 
-
-### Daily Coding Problem: Problem #91 [Easy]
-**2019 May 31st**
-
 This question was asked by Google.
 
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
 
-### Daily Coding Problem: Problem #92 [Hard]
-**2019 Jun 1st**
+### Daily Coding Problem: Problem #91 [Easy]
+**2019 May 31st**
 
 This problem was asked by Dropbox.
 
@@ -1226,8 +1222,8 @@ for f in functions:
     print(f())
 ```
 
-### Daily Coding Problem: Problem #93 [Hard]
-**2019 Jun 2nd**
+### Daily Coding Problem: Problem #92 [Hard]
+**2019 Jun 1st**
 
 This problem was asked by Airbnb.
 
@@ -1237,8 +1233,8 @@ Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
-### Daily Coding Problem: Problem #94 [Easy]
-**2019 Jun 3rd**
+### Daily Coding Problem: Problem #93 [Hard]
+**2019 Jun 2nd**
 
 This problem was asked by Apple.
 
@@ -1246,9 +1242,20 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-### Daily Coding Problem: Problem #95 [Hard]
-**2019 Jun 4th**
+### Daily Coding Problem: Problem #94 [Easy]
+**2019 Jun 3rd**
 
 This problem was asked by Google.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+
+### Daily Coding Problem: Problem #95 [Hard]
+**2019 Jun 4th**
+
+This problem was asked by Palantir.
+
+Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
+
+For example, the list [1,2,3] should return [1,3,2]. The list [1,3,2] should return [2,1,3]. The list [3,2,1] should return [1,2,3].
+
+Can you perform the operation without allocating extra memory (disregarding the input memory)?
