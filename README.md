@@ -1259,3 +1259,126 @@ Given a number represented by a list of digits, find the next greater permutatio
 For example, the list [1,2,3] should return [1,3,2]. The list [1,3,2] should return [2,1,3]. The list [3,2,1] should return [1,2,3].
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
+
+### Daily Coding Problem: Problem # 96 [Easy]
+**2019 Jun 5th**
+
+### Daily Coding Problem: Problem # 97 [Medium]
+**2019 Jun 6th**
+
+### Daily Coding Problem: Problem # 98 [Easy]
+**2019 Jun 7th**
+
+### Daily Coding Problem: Problem # 99 [Medium]
+**2019 Jun 8th**
+
+### Daily Coding Problem: Problem # 100 [Easy]
+**2019 Jun 9th**
+
+### Daily Coding Problem: Problem # 101 [Easy]
+**2019 Jun 10th**
+
+### Daily Coding Problem: Problem # 102 [Hard]
+**2019 Jun 11th**
+
+### Daily Coding Problem: Problem # 103 [Hard]
+**2019 Jun 12th**
+
+### Daily Coding Problem: Problem # 104 [Easy]
+**2019 Jun 13th**
+
+### Daily Coding Problem: Problem # 105 [Easy]
+**2019 Jun 14th**
+
+### Daily Coding Problem: Problem # 106 [Hard]
+**2019 Jun 15th**
+
+### Daily Coding Problem: Problem # 107 [Easy]
+**2019 Jun 16th**
+
+### Daily Coding Problem: Problem # 108 [Easy]
+**2019 Jun 17th**
+
+### Daily Coding Problem: Problem # 109 [Hard]
+**2019 Jun 18th**
+
+### Daily Coding Problem: Problem # 110 [Hard]
+**2019 Jun 19th**
+
+### Daily Coding Problem: Problem # 111 [Hard]
+**2019 Jun 20th**
+
+### Daily Coding Problem: Problem # 112 [Hard]
+**2019 Jun 21st**
+
+### Daily Coding Problem: Problem # 113 [Hard]
+**2019 Jun 22nd**
+
+### Daily Coding Problem: Problem # 114 [Hard]
+**2019 Jun 23rd**
+
+### Daily Coding Problem: Problem # 115 [Hard]
+**2019 Jun 24th**
+
+### Daily Coding Problem: Problem # 116 [Hard]
+**2019 Jun 25th**
+
+### Daily Coding Problem: Problem # 117 [Easy]
+**2019 Jun 26th**
+
+### Daily Coding Problem: Problem # 118 [Easy]
+**2019 Jun 27th**
+
+### Daily Coding Problem: Problem # 119 [Hard]
+**2019 Jun 28th**
+
+### Daily Coding Problem: Problem # 120 [Hard]
+**2019 Jun 29th**
+
+### Daily Coding Problem: Problem # 121 [Hard]
+**2019 Jun 30th**
+
+### Daily Coding Problem: Problem # 122 [Hard]
+**2019 Jul 1st**
+
+### Daily Coding Problem: Problem # 123 [Hard]
+**2019 Jul 2nd**
+
+### Daily Coding Problem: Problem # 124 [Easy]
+**2019 Jul 3rd**
+
+### Daily Coding Problem: Problem # 125 [Easy]
+**2019 Jul 4th**
+
+### Daily Coding Problem: Problem # 126 [Hard]
+**2019 Jul 5th**
+
+### Daily Coding Problem: Problem # 127 [Easy]
+**2019 Jul 6th**
+
+### Daily Coding Problem: Problem # 128 [Hard]
+**2019 Jul 7th**
+
+### Daily Coding Problem: Problem # 129 [Hard]
+**2019 Jul 8th**
+
+### Daily Coding Problem: Problem # 130 [Hard]
+**2019 Jul 9th**
+
+### Daily Coding Problem: Problem # 131 [Hard]
+**2019 Jul 10th**
+
+### Daily Coding Problem: Problem # 132 [Easy]
+**2019 Jul 11th**
+
+### Daily Coding Problem: Problem # 133 [Hard]
+**2019 Jul 12th**
+
+### Daily Coding Problem: Problem # 134 [Easy]
+**2019 Jul 13th**
+
+### Daily Coding Problem: Problem # 135 [Easy]
+**2019 Jul 14th**
+
+### Daily Coding Problem: Problem # 136 [Hard]
+**2019 Jul 15th**
